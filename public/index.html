@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Journal</title>
+    <link rel="icon" type="image/x-icon" href="/images/moon-and-cloud.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class='welcome-area'>
+        <header>
+            <h2 id='welcome-area-descriptor'>Welcome to<br> Dream Journal.</h2>
+            <h6 id='welcome-area-descriptor-2'>Choose a password to enter.</h6>
+        </header>
+        <section class='sign-up'>
+            <form class="sign-up-input form--hidden">
+                <input type="text" class="first-name" id="s-firstname" placeholder="First Name"><br>
+                <input type="text" class="last-name" id="s-lastname" placeholder="Last Name"><br>
+                <input type="text" class="email" id="s-email" placeholder="Email"><br>
+                <input type="password" class="password" id="s-password" placeholder="Password"><br>
+                <button id='sign-up'>Sign Up</button>
+            </form>
+        </section>
+        <!-- ----------------------------------------------------------------------------- -->
+        <section class='log-in'>
+            <form id="log-in-form" class="log-in-input">
+                <input type="password" class="password" id="l-password" placeholder="Password"><br>
+                <button id='log-in'>Log in</button>
+            </form>
+        </section>
+        <script src="https://unpkg.com/axios@0.27.2/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

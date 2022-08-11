@@ -1,0 +1,26 @@
+{
+  "dreams": {
+    "1": [
+      {
+        "id": "1",
+        "date": "2022-08-08",
+        "title": "The Old Bookstore",
+        "dreamType": "Happy",
+        "dreamDescription": "I visited an old bookstore that was filled with old books, antiques, and vintage items. There was an old woman working there who told me that most of these items belonged to her. She then showed me pictures of herself in her youth and told me fascinating stories about her past. ",
+        "mood": "Content",
+        "activityLevel": "Lightly Active",
+        "hoursSlept": "7"
+      }
+    ]
+  },
+  "users": [
+    {
+      "id": 1,
+      "password": "meg"
+    },
+    {
+      "id": 2,
+      "password": "austin"
+    }
+  ]
+}

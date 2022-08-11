@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Journal</title>
+    <link rel="icon" type="image/x-icon" href="/images/moon-and-cloud.png">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <h1 class='header'>My Dream Journal</h1>
+    <header>
+    <section class="dream-log">
+        <h2 id="make-log-descriptor">- add a dream entry -</h2>
+        <form>
+            <p class = 'dream-log-descriptors'>Enter the date:</p>
+            <input type="date" id="date"><br>
+            <p class = 'dream-log-descriptors'>Give your dream a title:</p>
+            <input type="text" id="title" placeholder='"The Old Bookstore"'><br>
+            <p class = 'dream-log-descriptors'>What type of dream did you have?</p>
+            <input type="text" id="type" placeholder="Ex: Happy, adventurous, etc."><br>
+            <p class = 'dream-log-descriptors'>What was your dream about?</p>
+            <input type="textarea" columns= "50" rows="6" id="description" placeholder="Write all about your dream here!">
+            <p class = 'dream-log-descriptors'>Describe your mood during the day:</p>
+            <input type="text" id="mood" placeholder="Ex: Content, anxious, excited, etc."><br>
+            <div><p class = 'dream-log-descriptors'>What was your activity level?</p>
+                <input type="radio" id="sedentary" name="activity-level" value="Sedentary"
+                       checked>
+                <label class="radio" for="sedentary">Sedentary</label><br>
+          
+
+                <input type="radio" id="lightly-active" name="activity-level" value="Lightly Active">
+                <label class="radio" for="lightly-active">Lightly Active</label><br>
+
+          
+
+                <input type="radio" id="moderately-active" name="activity-level" value="Moderately Active">
+                <label class="radio" for="moderately-active">Moderately Active</label><br>
+
+
+                <input type="radio" id="very-active" name="activity-level" value="Very Active">
+                <label class="radio" for="very-active">Very Active</label><br>
+            </div><br>
+            <div class='dream-log-descriptors'>
+                <label  for="hours-slept">How many hours of sleep did you get?</label>
+                <input type="number" id="hours-slept" name="hours-slept" min="1" max="14">
+            </div> 
+            <br>
+            <br>
+            <button id= 'button'>Add Dream</button>
+        </form>
+    </section>
+    <section id="dreams-container"></section>
+    <script src="https://unpkg.com/axios@0.27.2/dist/axios.min.js"></script>
+    <script src="./home.js"></script>
+
+</body>
+</html>
