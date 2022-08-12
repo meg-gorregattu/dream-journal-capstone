@@ -78,7 +78,11 @@ body {
     font-size: 13px;
 }
 
-
+#cloud-pic {
+  position: absolute;
+  width: 0px;
+  height: 0px
+}
 
 .header {
     position:absolute;

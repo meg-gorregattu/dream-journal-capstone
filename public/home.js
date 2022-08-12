@@ -48,12 +48,13 @@ function createDreamCard(dream) {
     const linebreak = document.createElement('br')
     dreamCard.classList.add('dream-card')
 
-    dreamCard.innerHTML = `
+    dreamCard.innerHTML = ` <article>
     <button onclick="deleteDream(${dream.id})">Delete</button>
     <p class="dream-date">${dream.date}</p>
     <p class="dream-title">${dream.title}</p>
     <p class="dream-description">${dream.dreamDescription}</p>
     <p class="dream-attributes"><b>Dream Type:</b>&nbsp; ${dream.dreamType}&nbsp;&nbsp;&nbsp; <b>Mood During Day:</b>&nbsp; ${dream.mood}&nbsp;&nbsp;&nbsp; <b>Activity Level:</b> &nbsp;${dream.activityLevel} &nbsp;&nbsp;&nbsp;<b>Hours of Sleep:</b>&nbsp; ${dream.hoursSlept}</p>
+    </article>
     `
 
 

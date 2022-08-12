@@ -10,8 +10,31 @@
         "mood": "Content",
         "activityLevel": "Lightly Active",
         "hoursSlept": "7"
+      },
+      {
+        "id": "2",
+        "date": "2022-08-11",
+        "title": "Game of Thrones X Coding",
+        "dreamType": "Confusing",
+        "dreamDescription": "I was having random flashes of scenes from Game of Thrones mixed with random flashes of my terminal screen. I don't even know.",
+        "mood": "Anxious",
+        "activityLevel": "Sedentary",
+        "hoursSlept": "8"
       }
-    ]
+    ],
+    "2": [
+      {
+        "id": "1",
+        "date": "2022-08-09",
+        "title": "Cupcakes Ipsum",
+        "dreamType": "Happy",
+        "dreamDescription": "Cupcake ipsum dolor sit amet. Cake marzipan wafer sugar plum jelly. Pie jelly beans lollipop jujubes pastry topping. Macaroon dragée dessert cupcake fruitcake candy canes. Sweet lemon drops lollipop cotton candy dessert pie chocolate cake. Sweet gummi bears cupcake dessert gummies wafer sugar plum danish jelly. Cake tootsie roll gummi bears cake chupa chups.",
+        "mood": "Content",
+        "activityLevel": "Moderately Active",
+        "hoursSlept": "9"
+      }
+    ],
+    "7": []
   },
   "users": [
     {
@@ -20,7 +43,27 @@
     },
     {
       "id": 2,
-      "password": "austin"
+      "password": "demo"
+    },
+    {
+      "id": 3,
+      "password": "demo"
+    },
+    {
+      "id": 4,
+      "password": "demobp"
+    },
+    {
+      "id": 5,
+      "password": "meghana"
+    },
+    {
+      "id": 6,
+      "password": "meg"
+    },
+    {
+      "id": 7,
+      "password": "home"
     }
   ]
 }
